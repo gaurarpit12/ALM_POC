@@ -1,0 +1,23 @@
+C:\Program Files(x86)\NUnit.org\nunit-console\nunit3-console.exe C:\Users\arpitga\Documents\Visual Studio 2015\Projects\ALM\UnitTestProject.Test\bin\Debug\UnitTestProject.Test.dll
+
+-targetargs:"UnitTestProject.Test/bin/Debug/TestProject.dll"
+
+-filter:"+[TestProject]TestProject.exe +[TestProject]TestProject.pdb"
+
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Modules />
+</CoverageSession>
+
+-filter:+[TestProject]*
+
+
+
+
+
+8th July-
+"packages/OpenCover.4.6.519/tools/OpenCover.Console.exe" -target:"packages/NUnit.ConsoleRunner.3.4.1/tools/nunit3-console.exe" -targetdir:"UnitTestProject.Test/bin/Debug" -targetargs:"UnitTestProject.Test.dll" -filter:+[TestProject]* -register:Path64
+
+11th July-
+"C:\Users\arpitga\Downloads\ncover-1.0.1\ncover-1.0.1\ncover-console\bin\Debug\ncover-console" "packages/NUnit.ConsoleRunner.3.4.1/tools/nunit3-console.exe" "UnitTestProject.Test/bin/Debug/UnitTestProject.Test.dll"
